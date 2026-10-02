@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="hero.svg?v=1" alt="Suraj Kumar Das — nutrition scientist, agentic AI, open to collabs" width="100%"/>
+<img src="hero.svg?v=2" alt="Suraj Kumar Das — nutrition scientist, agentic AI, open to collabs" width="100%"/>
 
-<img src="about-life.svg?v=1" alt="What I build, and a carousel of how I live" width="100%"/>
+<img src="about-life.svg?v=2" alt="What I build, and a carousel of how I live" width="100%"/>
 
-<img src="stack.svg?v=1" alt="Tech orbit and chip grid" width="100%"/>
+<img src="stack.svg?v=2" alt="Tech orbit and chip grid" width="100%"/>
 
-<img src="id-dashboard.svg?v=1" alt="Holographic ID badge and dashboard" width="100%"/>
+<img src="id-dashboard.svg?v=2" alt="Holographic ID badge and dashboard" width="100%"/>
 
-<img src="projects.svg?v=1" alt="Selected work" width="100%"/>
+<img src="projects.svg?v=2" alt="Selected work" width="100%"/>
 
 </div>
 
@@ -27,9 +27,9 @@
 
 ### Contribution city
 
-<img src="profile-3d-contrib/profile-night-green.svg?v=1" alt="3D contribution city, night view, refreshed daily" width="100%"/>
+<img src="profile-3d-contrib/profile-night-green.svg?v=2" alt="3D contribution city, night view, refreshed daily" width="100%"/>
 
-<img src="connect.svg?v=1" alt="Connect with Suraj" width="100%"/>
+<img src="connect.svg?v=2" alt="Connect with Suraj" width="100%"/>
 
 [GitHub](https://github.com/surajkumardas20) · [X](https://x.com/_surajkumardas) · [LinkedIn](https://linkedin.com/in/Suraj%20Kumar%20Das) · [Email](mailto:surajkumardaskrishna@gmail.com) · [Facebook](https://facebook.com/surajkumardas20)
 
