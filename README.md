@@ -6,21 +6,13 @@
 
 M.Sc Nutrition and Dietetics. Business in Bhogpur, West Bengal. Hospital internships during B.Sc and M.Sc, six months each. Microsoft BI, Tally, Word, Excel, PowerPoint, and Notes. Open to work that puts generative and agentic AI inside nutrition science.
 
-The console above is the profile. It plays on its own: portrait scan, glitch, rain, radar, signal bars, breach log, ticker, a color stills reel, and the sealed file — address, birth, academics, internships, tools, interests.
+The console above is the profile. It plays on its own: portrait scan, glitch, rain, radar, signal bars, breach log, ticker, a color stills reel, and the sealed file — address, birth, academics, internships, tools, interests. The stills under it keep scrolling.
 
 <div align="center">
 
 ### Stills
 
-<a href="photos/01.jpg"><img src="photos/01.jpg" alt="Night, varsity jacket, 2020" width="270"></a>
-<a href="photos/02.jpg"><img src="photos/02.jpg" alt="Metro, night ride" width="270"></a>
-<a href="photos/03.jpg"><img src="photos/03.jpg" alt="Night portrait, looking up" width="270"></a>
-<a href="photos/04.jpg"><img src="photos/04.jpg" alt="Hallway, 17 Feb 2020" width="270"></a>
-<a href="photos/05.jpg"><img src="photos/05.jpg" alt="Black coat, 13 Apr 2026" width="270"></a>
-<a href="photos/06.jpg"><img src="photos/06.jpg" alt="Royal Turf Club, Kolkata" width="270"></a>
-<a href="photos/07.jpg"><img src="photos/07.jpg" alt="Studio, grey coat, 13 Apr 2026" width="270"></a>
-<a href="photos/08.jpg"><img src="photos/08.jpg" alt="White blazer, 28 Apr 2026" width="270"></a>
-<a href="photos/09.jpg"><img src="photos/09.jpg" alt="Overcoat, 12 Apr 2026" width="270"></a>
+<img src="stills-reel.svg" alt="Nine color stills scrolling on a loop." width="100%"/>
 
 </div>
 

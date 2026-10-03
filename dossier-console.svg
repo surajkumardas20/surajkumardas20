@@ -407,7 +407,7 @@
 <text x="473" y="1282" fill="#8e959e" font-size="13">Grade</text>
 <text x="858" y="1282" text-anchor="end" fill="#d5d8de" font-size="13">FULL COLOR</text>
 <text x="473" y="1308" fill="#8e959e" font-size="13">Loop</text>
-<text x="858" y="1308" text-anchor="end" fill="#d5d8de" font-size="13">27s  ·  EASE</text>
+<text x="858" y="1308" text-anchor="end" fill="#d5d8de" font-size="13">27s LIVE</text>
 </g>
 <rect x="457" y="1156" width="417" height="182" rx="12" fill="none" stroke="#2c3138" />
 <clipPath id="reelClip"><rect x="26" y="1352" width="848" height="460" rx="12"/></clipPath>
