@@ -222,13 +222,6 @@
 <text x="519.6" y="290" fill="#d5d8de" font-size="12">BITSoM  2026</text>
 
 
-<rect x="618.0" y="272" width="82" height="28" rx="14" fill="#161920" stroke="#3a4048" />
-<circle cx="632.0" cy="286" r="3" fill="#f4f5f7">
-  <animate attributeName="opacity" values="1;0.25;1" dur="2.0s" repeatCount="indefinite" />
-</circle>
-<text x="642.0" y="290" fill="#d5d8de" font-size="12">HIREABLE</text>
-
-
 <text x="300" y="322" fill="#5c636c" font-size="10" letter-spacing="1.2">ROUTE</text>
 <rect x="300" y="330" width="118" height="3" rx="1.5" fill="#2c3138" />
 <rect x="300" y="330" height="3" rx="1.5" fill="#d5d8de">
