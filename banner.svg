@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" role="img" aria-label="Suraj Kumar Das white grey terminal">
+  <rect width="880" height="300" fill="#07080a"/>
+  <rect x="14" y="14" width="852" height="272" fill="#101216" stroke="#2c3138"/>
+  <rect x="14" y="14" width="852" height="36" fill="#171a20"/>
+  <circle cx="36" cy="32" r="5" fill="#5c636c"/>
+  <circle cx="54" cy="32" r="5" fill="#8e959e"/>
+  <circle cx="72" cy="32" r="5" fill="#d5d8de"/>
+  <text x="96" y="37" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">skd@bhogpur:~/dossier</text>
+  <circle cx="820" cy="32" r="4" fill="#f4f5f7">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="808" y="36" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="end">LIVE</text>
+  <text x="40" y="86" fill="#5c636c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="3">WHOAMI</text>
+  <text x="40" y="128" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="32" font-weight="600">SURAJ KUMAR DAS</text>
+  <text x="40" y="158" fill="#d5d8de" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">@surajkumardas20  ·  nutrition · business · agentic AI</text>
+  <text x="40" y="196" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">BORN  20.09.2000  08:49 AM</text>
+  <text x="40" y="220" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">PLACE  Bhogpur, Balichak, Debra, Paschim Midnapur  721124</text>
+  <text x="40" y="244" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">STUDY  M.Sc 8.67  ·  B.Sc 8.41  ·  hospital 6 + 6 months</text>
+  <text x="40" y="268" fill="#d5d8de" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">skd@bhogpur:~$ whoami<tspan>
+    <animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/> _
+  </tspan></text>
+  <rect x="14" y="14" width="852" height="2" fill="#d5d8de" opacity="0.55">
+    <animate attributeName="y" values="50;270;50" dur="3.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.45;0.45;0" keyTimes="0;0.08;0.9;1" dur="3.4s" repeatCount="indefinite"/>
+  </rect>
+  <g fill="#d5d8de" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">
+    <text x="620" y="196">WHITE</text>
+    <text x="680" y="196">GREY</text>
+    <rect x="620" y="208" width="70" height="6" fill="#2c3138"/>
+    <rect x="620" y="208" height="6" fill="#f4f5f7">
+      <animate attributeName="width" values="8;70;18;70" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="700" y="208" width="70" height="6" fill="#2c3138"/>
+    <rect x="700" y="208" height="6" fill="#8e959e">
+      <animate attributeName="width" values="70;12;70;30" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

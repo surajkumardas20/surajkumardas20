@@ -1,18 +1,14 @@
 <div align="center">
 
-<img src="hero.svg?v=4" alt="Suraj Kumar Das — nutrition, business, agentic AI" width="100%"/>
-
-<img src="about-life.svg?v=4" alt="Address and personal details" width="100%"/>
-
-<img src="id-dashboard.svg?v=4" alt="Academic qualifications" width="100%"/>
-
-<img src="stack.svg?v=4" alt="Hospital internships and software proficiency" width="100%"/>
-
-<img src="projects.svg?v=4" alt="Occupation, hobbies, and family" width="100%"/>
-
-<img src="connect.svg?v=4" alt="Repositories and contact" width="100%"/>
+<img src="banner.svg" alt="Suraj Kumar Das — white and grey terminal" width="100%"/>
 
 </div>
+
+M.Sc Nutrition and Dietetics. Business. Hospital internships during B.Sc and M.Sc, six months each. Tools: Microsoft BI, Tally, Word, Excel, PowerPoint, Notes. Open to work that puts generative and agentic AI inside nutrition science.
+
+The blocks below are the biodata, in a white-and-grey terminal. A scan line and signal meters run on the banner. The full command terminal (typing, rain, file lookup) is in this repository under `docs/`.
+
+<img src="record.svg" alt="Address, birth details, academics, internships, tools, family" width="100%"/>
 
 ### Selected work
 
@@ -27,8 +23,6 @@
 
 <div align="center">
 
-[GitHub](https://github.com/surajkumardas20) · [X](https://x.com/_surajkumardas) · [LinkedIn](https://linkedin.com/in/Suraj%20Kumar%20Das) · [Email](mailto:surajkumardaskrishna@gmail.com) · [Facebook](https://facebook.com/surajkumardas20)
+[GitHub](https://github.com/surajkumardas20) · [X](https://x.com/_surajkumardas) · [Email](mailto:surajkumardaskrishna@gmail.com)
 
 </div>
-
-M.Sc Nutrition and Dietetics. Business. Hospital internships during B.Sc and M.Sc. Open to work that puts generative and agentic AI inside nutrition science.

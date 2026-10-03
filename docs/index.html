@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SKD Dossier — Suraj Kumar Das</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root { color-scheme: dark; --bg:#07080a; --surface:#101216; --fg:#f4f5f7; --muted:#8e959e; --dim:#5c636c; --line:#2c3138; --silver:#d5d8de; }
+    * { box-sizing: border-box; }
+    html, body { margin:0; background:var(--bg); color:var(--fg); font-family:Sora,sans-serif; }
+    body { min-height:100vh; }
+    canvas { position:fixed; inset:0; width:100%; height:100%; pointer-events:none; }
+    .veil { position:fixed; inset:0; pointer-events:none; background:repeating-linear-gradient(to bottom,transparent 0 3px,rgba(244,245,247,.05) 3px 4px); }
+    main { position:relative; z-index:1; max-width:960px; margin:0 auto; padding:16px 16px 180px; }
+    header.bar, article, form { border:1px solid var(--line); background:rgba(16,18,22,.9); }
+    header.bar { display:flex; justify-content:space-between; padding:10px 14px; font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--muted); }
+    .live { width:6px; height:6px; border-radius:50%; background:var(--silver); display:inline-block; margin-right:6px; animation:blink 1.4s infinite; }
+    h1 { font-size:28px; margin:8px 0 0; letter-spacing:-.03em; }
+    .mono { font-family:"IBM Plex Mono",monospace; }
+    .muted { color:var(--muted); } .dim { color:var(--dim); } .silver { color:var(--silver); }
+    .grid { display:grid; gap:12px; margin-top:12px; }
+    @media (min-width:800px) { .grid { grid-template-columns:1fr 1fr; } .wide { grid-column:1 / -1; } }
+    article { padding:14px 16px; }
+    article h2 { margin:0; font-size:14px; font-weight:500; }
+    .row { display:grid; grid-template-columns:42% 1fr; gap:10px; border-top:1px solid var(--line); padding-top:8px; margin-top:8px; font-family:"IBM Plex Mono",monospace; font-size:12px; }
+    .row dd { margin:0; text-align:right; }
+    a { color:var(--silver); }
+    form { position:fixed; left:0; right:0; bottom:0; padding:10px 16px 14px; }
+    form .inner { max-width:960px; margin:0 auto; }
+    #log { max-height:88px; overflow:auto; font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--muted); line-height:1.5; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; margin:8px 0; }
+    .chips button, .go { background:transparent; color:var(--muted); border:1px solid var(--line); font-family:"IBM Plex Mono",monospace; font-size:11px; padding:6px 8px; cursor:pointer; }
+    .prompt { display:flex; gap:8px; align-items:center; border:1px solid var(--line); padding:8px 10px; font-family:"IBM Plex Mono",monospace; }
+    input { flex:1; background:transparent; border:0; color:var(--fg); font:inherit; outline:none; min-width:0; }
+    .caret { width:8px; height:16px; background:var(--silver); animation:blink 1.05s steps(1) infinite; }
+    .on { border-color:var(--silver); }
+    @keyframes blink { 50% { opacity:.25 } }
+    @media (prefers-reduced-motion: reduce) { .caret, .live { animation:none } canvas, .veil { display:none } }
+  </style>
+</head>
+<body>
+  <canvas id="rain" aria-hidden="true"></canvas>
+  <div class="veil"></div>
+  <main>
+    <header class="bar">
+      <span>skd@bhogpur ~/dossier</span>
+      <span><i class="live"></i>LIVE · <span id="clock"></span> IST</span>
+    </header>
+    <p class="mono dim" style="letter-spacing:.22em;font-size:11px;margin:18px 0 0">WHOAMI</p>
+    <h1>Suraj Kumar Das</h1>
+    <p class="mono muted" style="margin:4px 0 0">@surajkumardas20 · nutrition · business · agentic AI</p>
+    <div class="grid" id="files"></div>
+  </main>
+  <form id="shell">
+    <div class="inner">
+      <div id="log" aria-live="polite"></div>
+      <div class="chips" id="chips"></div>
+      <label class="prompt">
+        <span class="dim">skd@bhogpur:~$</span>
+        <input id="cmd" autocomplete="off" spellcheck="false" aria-label="Terminal command" placeholder="help" />
+        <span class="caret"></span>
+      </label>
+    </div>
+  </form>
+  <script>
+    const sections = [
+      ["address","ADDR.LOG","Address",[["Name","SURAJ KUMAR DAS"],["Village","BHOGPUR"],["Post","BALICHAK"],["Police Station","DEBRA"],["PIN","721124"],["District","PASCHIM MIDNAPUR"],["State","WEST BENGAL"]]],
+      ["personal","BIRTH.DAT","Personal details",[["Date of Birth","20.09.2000"],["DOB Time","08:49 AM"],["Rashi","VRISHABH (TAURUS)"],["Nakshatra","ROHINI 4"],["Paksha","KRISHNA"],["Tithi","SAPTAMI"],["Nadi","ANTYA"]]],
+      ["physical","PHYS.DAT","Physical & diet",[["Height","5'11\""],["Weight","85 KG"],["Skin Color","LIGHT"],["Diet","PURE VEG (SAKARI)"]]],
+      ["academics","EDU.TAB","Academics",[["Class 10 (CISCE)","Passed · 2016"],["Class 12 (CBSE)","Passed · 2018"],["B.Sc Hons. Nutrition & Dietetics","CGPA 8.41 · 2021"],["M.Sc Hons. Nutrition & Dietetics","CGPA 8.67 · 2023"],["Diploma in Clinical Nutrition and Dietetics (MHRD)","SGPA 7.33, Grade-A · 2022"],["Business Analytics with Generative and Agentic AI, BITSoM","Passed · 2026"]]],
+      ["field","FIELD.LOG","Internships & occupation",[["Occupation","BUSINESS"],["Hospital internship","While pursuing B.Sc · 6 months"],["Hospital internship","While pursuing M.Sc · 6 months"]]],
+      ["skills","TOOLS.BIN","Proficiency",[["Microsoft BI","CLEARED"],["Tally","CLEARED"],["Microsoft Word","CLEARED"],["Microsoft Excel","CLEARED"],["Microsoft PowerPoint","CLEARED"],["Notes","CLEARED"]]],
+      ["life","LIFE.LOG","Interests",[["Main hobby","PUJA"],["Listening","SONGS"],["Travel","SPIRITUAL TOUR"]]],
+      ["family","KIN.LOG","Parents & family",[["Grandpa","NISITH RANJAN DAS"],["Grandma","RINA DAS"],["Father","SANGRAM DAS"],["Mother","SUSMITA DAS"]]]
+    ];
+    const repos = [
+      ["Nutrition_AI","Patients, BMI, and SQL-powered health intelligence","https://github.com/surajkumardas20/Nutrition_AI"],
+      ["Nutrition_with_GenAI-AgenticAI","Generative and agentic AI for nutrition science","https://github.com/surajkumardas20/Nutrition_with_GenAI-AgenticAI"],
+      ["Nutrition-AI-Business-Model","AI, nutrition science, and business analytics","https://github.com/surajkumardas20/Nutrition-AI-Business-Model"],
+      ["Sales-Analytics-System","Python sales analytics","https://github.com/surajkumardas20/Sales-Analytics-System"],
+      ["Assessment-Model","Worked examples for assessment","https://github.com/surajkumardas20/Assessment-Model"],
+      ["Giridhari-Traders","The trading venture","https://github.com/surajkumardas20/Giridhari-Traders"]
+    ];
+    const files = document.getElementById("files");
+    const glyphs = "01ABCDEFGHJKLMNPQRSTUVWXYZ";
+    const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    function decrypt(el, text) {
+      if (reduce) { el.textContent = text; return; }
+      let frame = 0;
+      const id = setInterval(() => {
+        frame++;
+        const cut = Math.floor(frame / 14 * text.length);
+        el.textContent = [...text].map((ch,i) => ch === " " || i < cut ? ch : glyphs[Math.floor(Math.random()*glyphs.length)]).join("");
+        if (frame >= 14) { clearInterval(id); el.textContent = text; }
+      }, 28);
+    }
+    for (const [id, code, title, rows] of sections) {
+      const art = document.createElement("article");
+      art.id = id;
+      if (id === "address" || id === "academics") art.className = "wide";
+      art.innerHTML = `<header style="display:flex;justify-content:space-between"><h2>${title}</h2><span class="mono dim" style="font-size:10px;letter-spacing:.16em">${code}</span></header>`;
+      for (const [k,v] of rows) {
+        const row = document.createElement("div");
+        row.className = "row";
+        const dt = document.createElement("dt"); dt.className = "muted"; dt.textContent = k;
+        const dd = document.createElement("dd");
+        row.append(dt, dd); art.append(row); decrypt(dd, v);
+      }
+      files.append(art);
+    }
+    const work = document.createElement("article");
+    work.id = "work"; work.className = "wide";
+    work.innerHTML = `<header style="display:flex;justify-content:space-between"><h2>Selected work</h2><span class="mono dim" style="font-size:10px;letter-spacing:.16em">REPO.IDX</span></header>`;
+    for (const [name, blurb, href] of repos) {
+      const row = document.createElement("div");
+      row.className = "row";
+      row.innerHTML = `<dt><a href="${href}">${name}</a></dt><dd class="muted">${blurb}</dd>`;
+      work.append(row);
+    }
+    files.append(work);
+    const log = document.getElementById("log");
+    function push(text) { const p = document.createElement("p"); p.style.margin = "0"; p.textContent = text; log.append(p); log.scrollTop = log.scrollHeight; }
+    ["channel open · white/grey","subject · suraj kumar das","type help"].forEach(push);
+    function run(raw) {
+      const cmd = raw.trim().toLowerCase().replace(/^cat\s+/, "");
+      if (!cmd) return;
+      push("skd@bhogpur:~$ " + cmd);
+      document.querySelectorAll("article").forEach(a => a.classList.remove("on"));
+      if (cmd === "clear") { log.innerHTML = ""; return; }
+      if (cmd === "help" || cmd === "ls") { push("files: whoami address personal physical academics field skills life family repos"); return; }
+      if (cmd === "whoami") { push("SURAJ KUMAR DAS · surajkumardas20"); push("Bhogpur, Paschim Midnapur, West Bengal"); document.getElementById("address").classList.add("on"); document.getElementById("address").scrollIntoView({behavior:"smooth", block:"center"}); return; }
+      if (cmd === "repos" || cmd === "work") { repos.forEach(r => push(r[0] + " — " + r[1])); document.getElementById("work").classList.add("on"); document.getElementById("work").scrollIntoView({behavior:"smooth", block:"center"}); return; }
+      const hit = sections.find(s => s[0] === cmd || s[2].toLowerCase().includes(cmd));
+      if (!hit) { push("unknown file '" + cmd + "'. type help."); return; }
+      hit[3].forEach(r => push(r[0] + ": " + r[1]));
+      const el = document.getElementById(hit[0]); el.classList.add("on"); el.scrollIntoView({behavior:"smooth", block:"center"});
+    }
+    document.getElementById("shell").addEventListener("submit", (e) => { e.preventDefault(); const input = document.getElementById("cmd"); run(input.value); input.value = ""; });
+    const chips = document.getElementById("chips");
+    for (const name of ["whoami","academics","field","family","skills","repos"]) {
+      const b = document.createElement("button"); b.type = "button"; b.textContent = name; b.addEventListener("click", () => run(name)); chips.append(b);
+    }
+    function tick() {
+      document.getElementById("clock").textContent = new Date().toLocaleTimeString("en-IN", {hour:"2-digit", minute:"2-digit", second:"2-digit", hour12:false, timeZone:"Asia/Kolkata"});
+    }
+    tick(); setInterval(tick, 1000);
+    if (!reduce) {
+      const c = document.getElementById("rain"); const ctx = c.getContext("2d");
+      let cols = 0, drops = [];
+      const fit = () => { const dpr = Math.min(devicePixelRatio||1, 2); c.width = innerWidth*dpr; c.height = innerHeight*dpr; ctx.setTransform(dpr,0,0,dpr,0,0); cols = Math.ceil(innerWidth/16); drops = Array.from({length:cols}, () => Math.random()*-40); };
+      fit(); addEventListener("resize", fit);
+      let n = 0;
+      (function draw() {
+        n++;
+        if (n % 2 === 0) {
+          ctx.fillStyle = "rgba(7,8,10,.18)"; ctx.fillRect(0,0,innerWidth,innerHeight);
+          ctx.font = "13px 'IBM Plex Mono', monospace";
+          for (let i=0;i<cols;i++) {
+            const y = drops[i]*16;
+            ctx.fillStyle = y < 32 ? "rgba(244,245,247,.55)" : "rgba(213,216,222,.16)";
+            ctx.fillText(Math.random() > .5 ? "0" : "1", i*16, y);
+            drops[i] = y > innerHeight && Math.random() > .975 ? 0 : drops[i]+1;
+          }
+        }
+        requestAnimationFrame(draw);
+      })();
+    }
+  </script>
+</body>
+</html>

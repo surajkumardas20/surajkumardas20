@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="1130" viewBox="0 0 880 1130" role="img" aria-label="Biodata record">
+<rect width="880" height="1130" fill="#07080a"/>
+<rect x="14" y="14" width="852" height="1102" fill="#101216" stroke="#2c3138"/>
+<text x="36" y="48" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2">RECORD.DAT  ·  WHITE / GREY</text>
+
+<text x="36" y="78" fill="#d5d8de" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5">ADDRESS</text>
+<text x="36" y="100" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Name</text>
+<text x="844" y="100" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">SURAJ KUMAR DAS</text>
+<text x="36" y="124" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Village</text>
+<text x="844" y="124" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">BHOGPUR</text>
+<text x="36" y="148" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Post</text>
+<text x="844" y="148" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">BALICHAK</text>
+<text x="36" y="172" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Police Station</text>
+<text x="844" y="172" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">DEBRA</text>
+<text x="36" y="196" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">PIN</text>
+<text x="844" y="196" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">721124</text>
+<text x="36" y="220" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">District</text>
+<text x="844" y="220" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">PASCHIM MIDNAPUR</text>
+<text x="36" y="244" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">State</text>
+<text x="844" y="244" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">WEST BENGAL</text>
+<text x="36" y="268" fill="#d5d8de" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5">PERSONAL</text>
+<text x="36" y="290" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Date of Birth</text>
+<text x="844" y="290" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">20.09.2000</text>
+<text x="36" y="314" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">DOB Time</text>
+<text x="844" y="314" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">08:49 AM</text>
+<text x="36" y="338" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Rashi</text>
+<text x="844" y="338" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">VRISHABH (TAURUS)</text>
+<text x="36" y="362" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Nakshatra</text>
+<text x="844" y="362" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">ROHINI 4</text>
+<text x="36" y="386" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Paksha</text>
+<text x="844" y="386" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">KRISHNA</text>
+<text x="36" y="410" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Tithi</text>
+<text x="844" y="410" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">SAPTAMI</text>
+<text x="36" y="434" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Nadi</text>
+<text x="844" y="434" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">ANTYA</text>
+<text x="36" y="458" fill="#d5d8de" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5">PHYSICAL</text>
+<text x="36" y="480" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Height</text>
+<text x="844" y="480" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">5'11"</text>
+<text x="36" y="504" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Weight</text>
+<text x="844" y="504" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">85 KG</text>
+<text x="36" y="528" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Skin Color</text>
+<text x="844" y="528" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">LIGHT</text>
+<text x="36" y="552" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Diet</text>
+<text x="844" y="552" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">PURE VEG (SAKARI)</text>
+<text x="36" y="576" fill="#d5d8de" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5">ACADEMICS</text>
+<text x="36" y="598" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Class 10 (CISCE)</text>
+<text x="844" y="598" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">Passed · 2016</text>
+<text x="36" y="622" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Class 12 (CBSE)</text>
+<text x="844" y="622" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">Passed · 2018</text>
+<text x="36" y="646" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">B.Sc Hons. Nutrition & Dietetics</text>
+<text x="844" y="646" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">CGPA 8.41 · 2021</text>
+<text x="36" y="670" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">M.Sc Hons. Nutrition & Dietetics</text>
+<text x="844" y="670" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">CGPA 8.67 · 2023</text>
+<text x="36" y="694" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Diploma Clinical Nutrition (MHRD)</text>
+<text x="844" y="694" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">SGPA 7.33, Grade-A · 2022</text>
+<text x="36" y="718" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Business Analytics, Gen & Agentic AI, BITSoM</text>
+<text x="844" y="718" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">Passed · 2026</text>
+<text x="36" y="742" fill="#d5d8de" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5">FIELD</text>
+<text x="36" y="764" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Occupation</text>
+<text x="844" y="764" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">BUSINESS</text>
+<text x="36" y="788" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Hospital internship · B.Sc</text>
+<text x="844" y="788" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">6 months</text>
+<text x="36" y="812" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Hospital internship · M.Sc</text>
+<text x="844" y="812" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">6 months</text>
+<text x="36" y="836" fill="#d5d8de" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5">TOOLS</text>
+<text x="36" y="858" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Microsoft BI</text>
+<text x="844" y="858" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">CLEARED</text>
+<text x="36" y="882" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Tally</text>
+<text x="844" y="882" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">CLEARED</text>
+<text x="36" y="906" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Word · Excel · PowerPoint · Notes</text>
+<text x="844" y="906" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">CLEARED</text>
+<text x="36" y="930" fill="#d5d8de" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5">LIFE</text>
+<text x="36" y="952" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Main hobby</text>
+<text x="844" y="952" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">PUJA</text>
+<text x="36" y="976" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Also</text>
+<text x="844" y="976" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">LISTENING SONGS · SPIRITUAL TOUR</text>
+<text x="36" y="1000" fill="#d5d8de" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5">FAMILY</text>
+<text x="36" y="1022" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Grandpa</text>
+<text x="844" y="1022" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">NISITH RANJAN DAS</text>
+<text x="36" y="1046" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Grandma</text>
+<text x="844" y="1046" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">RINA DAS</text>
+<text x="36" y="1070" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Father</text>
+<text x="844" y="1070" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">SANGRAM DAS</text>
+<text x="36" y="1094" fill="#8e959e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Mother</text>
+<text x="844" y="1094" fill="#f4f5f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="end">SUSMITA DAS</text>
+<rect x="14" y="14" width="852" height="2" fill="#f4f5f7" opacity="0.35">
+  <animate attributeName="y" values="14;1110;14" dur="6s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0.4;0" dur="6s" repeatCount="indefinite"/>
+</rect>
+</svg>
