@@ -37,6 +37,15 @@
     .caret { width:8px; height:16px; background:var(--silver); animation:blink 1.05s steps(1) infinite; }
     .on { border-color:var(--silver); }
     @keyframes blink { 50% { opacity:.25 } }
+
+    .reel { margin-top:16px; overflow:hidden; border:1px solid var(--line); background:#07080a; height:248px; position:relative; }
+    .reel .tag { position:absolute; z-index:2; left:12px; top:10px; font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.18em; color:#f4f5f7; }
+    .track { display:flex; gap:8px; height:248px; width:max-content; animation:marquee 42s linear infinite; }
+    .track img { height:248px; width:auto; display:block; }
+    .reel:hover .track { animation-play-state:paused; }
+    @keyframes marquee { from { transform:translateX(0) } to { transform:translateX(-50%) } }
+    @media (prefers-reduced-motion: reduce) { .track { animation:none } }
+
     @media (prefers-reduced-motion: reduce) { .caret, .live { animation:none } canvas, .veil { display:none } }
   </style>
 </head>
@@ -51,6 +60,11 @@
     <p class="mono dim" style="letter-spacing:.22em;font-size:11px;margin:18px 0 0">WHOAMI</p>
     <h1>Suraj Kumar Das</h1>
     <p class="mono muted" style="margin:4px 0 0">@surajkumardas20 · nutrition · business · agentic AI</p>
+    
+    <section class="reel" aria-label="Field stills">
+      <span class="tag">LENS.REEL · 09</span>
+      <div class="track" id="track"></div>
+    </section>
     <div class="grid" id="files"></div>
   </main>
   <form id="shell">
@@ -65,15 +79,27 @@
     </div>
   </form>
   <script>
+
+    const track = document.getElementById("track");
+    const shots = ["01","02","03","04","05","06","07","08","09"];
+    const caps = ["Night, varsity, 2020","Metro, night ride","Night, looking up","Hallway, 17 Feb 2020","Black coat, 13 Apr 2026","Royal Turf Club, Kolkata","Studio, 13 Apr 2026","White blazer, 28 Apr 2026","Overcoat, 12 Apr 2026"];
+    for (const copy of [0,1]) {
+      shots.forEach((n,i) => {
+        const img = document.createElement("img");
+        img.src = "photos/" + n + ".jpg";
+        img.alt = caps[i];
+        track.append(img);
+      });
+    }
+
     const sections = [
       ["address","ADDR.LOG","Address",[["Name","SURAJ KUMAR DAS"],["Village","BHOGPUR"],["Post","BALICHAK"],["Police Station","DEBRA"],["PIN","721124"],["District","PASCHIM MIDNAPUR"],["State","WEST BENGAL"]]],
-      ["personal","BIRTH.DAT","Personal details",[["Date of Birth","20.09.2000"],["DOB Time","08:49 AM"],["Rashi","VRISHABH (TAURUS)"],["Nakshatra","ROHINI 4"],["Paksha","KRISHNA"],["Tithi","SAPTAMI"],["Nadi","ANTYA"]]],
-      ["physical","PHYS.DAT","Physical & diet",[["Height","5'11\""],["Weight","85 KG"],["Skin Color","LIGHT"],["Diet","PURE VEG (SAKARI)"]]],
+      ["personal","BIRTH.DAT","Personal details",[["Date of Birth","20/10/2000"],["DOB Time","08:49 AM"],["Rashi","VRISHABH (TAURUS)"],["Nakshatra","ROHINI 4"],["Paksha","KRISHNA"],["Tithi","SAPTAMI"],["Nadi","ANTYA"]]],
+      ["physical","PHYS.DAT","Physical & diet",[["Height","5'11\""],["Weight","85 KG"],["Skin Color","LIGHT"],["Diet","Pure Veg (Sakahari)"]]],
       ["academics","EDU.TAB","Academics",[["Class 10 (CISCE)","Passed · 2016"],["Class 12 (CBSE)","Passed · 2018"],["B.Sc Hons. Nutrition & Dietetics","CGPA 8.41 · 2021"],["M.Sc Hons. Nutrition & Dietetics","CGPA 8.67 · 2023"],["Diploma in Clinical Nutrition and Dietetics (MHRD)","SGPA 7.33, Grade-A · 2022"],["Business Analytics with Generative and Agentic AI, BITSoM","Passed · 2026"]]],
       ["field","FIELD.LOG","Internships & occupation",[["Occupation","BUSINESS"],["Hospital internship","While pursuing B.Sc · 6 months"],["Hospital internship","While pursuing M.Sc · 6 months"]]],
       ["skills","TOOLS.BIN","Proficiency",[["Microsoft BI","CLEARED"],["Tally","CLEARED"],["Microsoft Word","CLEARED"],["Microsoft Excel","CLEARED"],["Microsoft PowerPoint","CLEARED"],["Notes","CLEARED"]]],
       ["life","LIFE.LOG","Interests",[["Main hobby","PUJA"],["Listening","SONGS"],["Travel","SPIRITUAL TOUR"]]],
-      ["family","KIN.LOG","Parents & family",[["Grandpa","NISITH RANJAN DAS"],["Grandma","RINA DAS"],["Father","SANGRAM DAS"],["Mother","SUSMITA DAS"]]]
     ];
     const repos = [
       ["Nutrition_AI","Patients, BMI, and SQL-powered health intelligence","https://github.com/surajkumardas20/Nutrition_AI"],
@@ -129,9 +155,11 @@
       push("skd@bhogpur:~$ " + cmd);
       document.querySelectorAll("article").forEach(a => a.classList.remove("on"));
       if (cmd === "clear") { log.innerHTML = ""; return; }
-      if (cmd === "help" || cmd === "ls") { push("files: whoami address personal physical academics field skills life family repos"); return; }
+      if (cmd === "help" || cmd === "ls") { push("files: whoami address personal physical academics field skills life reels repos"); return; }
       if (cmd === "whoami") { push("SURAJ KUMAR DAS · surajkumardas20"); push("Bhogpur, Paschim Midnapur, West Bengal"); document.getElementById("address").classList.add("on"); document.getElementById("address").scrollIntoView({behavior:"smooth", block:"center"}); return; }
       if (cmd === "repos" || cmd === "work") { repos.forEach(r => push(r[0] + " — " + r[1])); document.getElementById("work").classList.add("on"); document.getElementById("work").scrollIntoView({behavior:"smooth", block:"center"}); return; }
+
+    if (cmd === "reels") { push("LENS.REEL · 09 color stills · live crossfade"); document.querySelector(".reel").scrollIntoView({behavior:"smooth", block:"center"}); return; }
       const hit = sections.find(s => s[0] === cmd || s[2].toLowerCase().includes(cmd));
       if (!hit) { push("unknown file '" + cmd + "'. type help."); return; }
       hit[3].forEach(r => push(r[0] + ": " + r[1]));
@@ -139,7 +167,7 @@
     }
     document.getElementById("shell").addEventListener("submit", (e) => { e.preventDefault(); const input = document.getElementById("cmd"); run(input.value); input.value = ""; });
     const chips = document.getElementById("chips");
-    for (const name of ["whoami","academics","field","family","skills","repos"]) {
+    for (const name of ["whoami","academics","field","reels","skills","repos"]) {
       const b = document.createElement("button"); b.type = "button"; b.textContent = name; b.addEventListener("click", () => run(name)); chips.append(b);
     }
     function tick() {

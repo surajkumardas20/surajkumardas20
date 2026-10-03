@@ -6,7 +6,7 @@
 
 M.Sc Nutrition and Dietetics. Business in Bhogpur, West Bengal. Hospital internships during B.Sc and M.Sc, six months each. Microsoft BI, Tally, Word, Excel, PowerPoint, and Notes. Open to work that puts generative and agentic AI inside nutrition science.
 
-The console above is the profile. It plays on its own: portrait scan, glitch, rain, radar, signal bars, breach log, ticker, and the sealed file — address, birth, academics, internships, tools, interests, family.
+The console above is the profile. It plays on its own: portrait scan, glitch, rain, radar, signal bars, breach log, ticker, a color stills reel, and the sealed file — address, birth, academics, internships, tools, interests.
 
 ### Selected work
 

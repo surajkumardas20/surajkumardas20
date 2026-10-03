@@ -67,7 +67,7 @@
       <line x1="28" y1="358" x2="852" y2="358" stroke="#d5d8e0"/>
     
       <text x="36" y="384" fill="#5e6572" font-size="12" letter-spacing="1.2">DATE OF BIRTH</text>
-      <text x="250" y="384" fill="#1c1f26" font-size="14">20.09.2000</text>
+      <text x="250" y="384" fill="#1c1f26" font-size="14">20/10/2000</text>
       <line x1="36" y1="394" x2="844" y2="394" stroke="#d5d8e0" opacity="0.85">
         <animate attributeName="opacity" values="0.35;0.9;0.35" dur="3.6s" begin="0.0s" repeatCount="indefinite"/>
       </line>
@@ -127,7 +127,7 @@
       </line>
     
       <text x="36" y="704" fill="#5e6572" font-size="12" letter-spacing="1.2">DIET</text>
-      <text x="250" y="704" fill="#1c1f26" font-size="14">PURE VEG (SAKARI)</text>
+      <text x="250" y="704" fill="#1c1f26" font-size="14">Pure Veg (Sakahari)</text>
       <line x1="36" y1="714" x2="844" y2="714" stroke="#d5d8e0" opacity="0.85">
         <animate attributeName="opacity" values="0.35;0.9;0.35" dur="3.6s" begin="1.0s" repeatCount="indefinite"/>
       </line>
