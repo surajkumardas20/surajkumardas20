@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="banner.svg" alt="Suraj Kumar Das — white and grey terminal" width="100%"/>
+<img src="dossier-console.svg" alt="Suraj Kumar Das — animated dossier. Portrait, scan line, radar, breach log, and the full record." width="100%"/>
 
 </div>
 
-M.Sc Nutrition and Dietetics. Business. Hospital internships during B.Sc and M.Sc, six months each. Tools: Microsoft BI, Tally, Word, Excel, PowerPoint, Notes. Open to work that puts generative and agentic AI inside nutrition science.
+M.Sc Nutrition and Dietetics. Business in Bhogpur, West Bengal. Hospital internships during B.Sc and M.Sc, six months each. Microsoft BI, Tally, Word, Excel, PowerPoint, and Notes. Open to work that puts generative and agentic AI inside nutrition science.
 
-The blocks below are the biodata, in a white-and-grey terminal. A scan line and signal meters run on the banner. The full command terminal (typing, rain, file lookup) is in this repository under `docs/`.
-
-<img src="record.svg" alt="Address, birth details, academics, internships, tools, family" width="100%"/>
+The console above is the profile. It plays on its own: portrait scan, glitch, rain, radar, signal bars, breach log, ticker, and the sealed file — address, birth, academics, internships, tools, interests, family.
 
 ### Selected work
 
