@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="774" viewBox="0 0 900 774" role="img" aria-labelledby="title desc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace">
+<title id="title">Selected work and popular repositories</title>
+<desc id="desc">Animated selected work and popular repositories in the dossier console.</desc>
+<defs>
+  <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f4f5f7" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#f4f5f7" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#f4f5f7" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="selClip"><rect x="26" y="16" width="848" height="392" rx="12"/></clipPath>
+  <clipPath id="popClip"><rect x="26" y="424" width="848" height="334" rx="12"/></clipPath>
+</defs>
+<rect width="900" height="774" fill="#07080a"/>
+<rect x="26" y="16" width="848" height="392" rx="12" fill="#101216" stroke="#2c3138"/>
+<text x="42" y="42" fill="#5c636c" font-size="11" letter-spacing="1.6">SELECTED.WORK</text>
+<text x="858" y="42" text-anchor="end" fill="#8e959e" font-size="11">06 REPOS</text>
+<text x="42" y="68" fill="#f4f5f7" font-size="16">Selected work</text>
+<g clip-path="url(#selClip)">
+  <rect x="26" y="16" width="848" height="22" fill="url(#beam)" opacity="0.35">
+    <animate attributeName="y" values="6;408" dur="6.5s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<rect x="42" y="94" width="816" height="44" rx="8" fill="#161920" stroke="#3a4048"/>
+<rect x="42" y="94" width="816" height="44" rx="8" fill="#f4f5f7" opacity="0"><animate attributeName="opacity" values="0.10;0.10;0;0;0.10" keyTimes="0;0.1317;0.2017;0.9650;1" dur="18s" repeatCount="indefinite"/></rect>
+<circle cx="58" cy="116" r="3" fill="#f4f5f7"><animate attributeName="opacity" values="1;0.25;1" dur="1.15s" repeatCount="indefinite"/></circle>
+<text x="72" y="112" fill="#f4f5f7" font-size="14">Nutrition_AI</text>
+<text x="72" y="130" fill="#8e959e" font-size="12">Patients, BMI, and SQL-powered health intelligence</text>
+<text x="842" y="121" text-anchor="end" fill="#5c636c" font-size="11" letter-spacing="1.1">SQL</text>
+
+<rect x="42" y="144" width="816" height="44" rx="8" fill="#161920" stroke="#3a4048"/>
+<rect x="42" y="144" width="816" height="44" rx="8" fill="#f4f5f7" opacity="0"><animate attributeName="opacity" values="0;0;0.10;0.10;0;0" keyTimes="0;0.1317;0.2017;0.2983;0.3683;1" dur="18s" repeatCount="indefinite"/></rect>
+<circle cx="58" cy="166" r="3" fill="#f4f5f7"><animate attributeName="opacity" values="1;0.25;1" dur="1.33s" repeatCount="indefinite"/></circle>
+<text x="72" y="162" fill="#f4f5f7" font-size="14">Nutrition_with_GenAI-AgenticAI</text>
+<text x="72" y="180" fill="#8e959e" font-size="12">Generative and agentic AI for nutrition science</text>
+<text x="842" y="171" text-anchor="end" fill="#5c636c" font-size="11" letter-spacing="1.1">GenAI</text>
+
+<rect x="42" y="194" width="816" height="44" rx="8" fill="#161920" stroke="#3a4048"/>
+<rect x="42" y="194" width="816" height="44" rx="8" fill="#f4f5f7" opacity="0"><animate attributeName="opacity" values="0;0;0.10;0.10;0;0" keyTimes="0;0.2983;0.3683;0.4650;0.5350;1" dur="18s" repeatCount="indefinite"/></rect>
+<circle cx="58" cy="216" r="3" fill="#f4f5f7"><animate attributeName="opacity" values="1;0.25;1" dur="1.51s" repeatCount="indefinite"/></circle>
+<text x="72" y="212" fill="#f4f5f7" font-size="14">Nutrition-AI-Business-Model</text>
+<text x="72" y="230" fill="#8e959e" font-size="12">AI, nutrition science, and business analytics</text>
+<text x="842" y="221" text-anchor="end" fill="#5c636c" font-size="11" letter-spacing="1.1">MODEL</text>
+
+<rect x="42" y="244" width="816" height="44" rx="8" fill="#161920" stroke="#3a4048"/>
+<rect x="42" y="244" width="816" height="44" rx="8" fill="#f4f5f7" opacity="0"><animate attributeName="opacity" values="0;0;0.10;0.10;0;0" keyTimes="0;0.4650;0.5350;0.6317;0.7017;1" dur="18s" repeatCount="indefinite"/></rect>
+<circle cx="58" cy="266" r="3" fill="#f4f5f7"><animate attributeName="opacity" values="1;0.25;1" dur="1.69s" repeatCount="indefinite"/></circle>
+<text x="72" y="262" fill="#f4f5f7" font-size="14">Sales-Analytics-System</text>
+<text x="72" y="280" fill="#8e959e" font-size="12">Python sales analytics</text>
+<text x="842" y="271" text-anchor="end" fill="#5c636c" font-size="11" letter-spacing="1.1">PYTHON</text>
+
+<rect x="42" y="294" width="816" height="44" rx="8" fill="#161920" stroke="#3a4048"/>
+<rect x="42" y="294" width="816" height="44" rx="8" fill="#f4f5f7" opacity="0"><animate attributeName="opacity" values="0;0;0.10;0.10;0;0" keyTimes="0;0.6317;0.7017;0.7983;0.8683;1" dur="18s" repeatCount="indefinite"/></rect>
+<circle cx="58" cy="316" r="3" fill="#f4f5f7"><animate attributeName="opacity" values="1;0.25;1" dur="1.87s" repeatCount="indefinite"/></circle>
+<text x="72" y="312" fill="#f4f5f7" font-size="14">Assessment-Model</text>
+<text x="72" y="330" fill="#8e959e" font-size="12">Worked examples for assessment</text>
+<text x="842" y="321" text-anchor="end" fill="#5c636c" font-size="11" letter-spacing="1.1">NOTES</text>
+
+<rect x="42" y="344" width="816" height="44" rx="8" fill="#161920" stroke="#3a4048"/>
+<rect x="42" y="344" width="816" height="44" rx="8" fill="#f4f5f7" opacity="0"><animate attributeName="opacity" values="0;0;0.10;0.10;0" keyTimes="0;0.7983;0.8683;0.9650;1" dur="18s" repeatCount="indefinite"/></rect>
+<circle cx="58" cy="366" r="3" fill="#f4f5f7"><animate attributeName="opacity" values="1;0.25;1" dur="2.05s" repeatCount="indefinite"/></circle>
+<text x="72" y="362" fill="#f4f5f7" font-size="14">Giridhari-Traders</text>
+<text x="72" y="380" fill="#8e959e" font-size="12">The trading venture</text>
+<text x="842" y="371" text-anchor="end" fill="#5c636c" font-size="11" letter-spacing="1.1">TRADE</text>
+
+<rect x="26" y="16" width="848" height="392" rx="12" fill="none" stroke="#2c3138"/>
+<rect x="26" y="424" width="848" height="334" rx="12" fill="#101216" stroke="#2c3138"/>
+<text x="42" y="450" fill="#5c636c" font-size="11" letter-spacing="1.6">POPULAR.REPOS</text>
+<text x="858" y="450" text-anchor="end" fill="#8e959e" font-size="11">PUBLIC</text>
+<text x="42" y="476" fill="#f4f5f7" font-size="16">Popular repositories</text>
+<g clip-path="url(#popClip)">
+  <rect x="26" y="424" width="848" height="22" fill="url(#beam)" opacity="0.28">
+    <animate attributeName="y" values="414;758" dur="7.4s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<rect x="42" y="494" width="402" height="74" rx="8" fill="#161920" stroke="#3a4048"/>
+<rect x="42" y="494" width="402" height="74" rx="8" fill="#f4f5f7" opacity="0"><animate attributeName="opacity" values="0.10;0.10;0;0;0.10" keyTimes="0;0.1317;0.2017;0.9650;1" dur="21s" repeatCount="indefinite"/></rect>
+<circle cx="58" cy="516" r="3" fill="#f4f5f7"><animate attributeName="opacity" values="1;0.25;1" dur="1.20s" repeatCount="indefinite"/></circle>
+<text x="70" y="520" fill="#f4f5f7" font-size="13">Nutrition_AI</text>
+<text x="58" y="542" fill="#8e959e" font-size="11">Patients, BMI, and SQL-powered health intelligence</text>
+<text x="430" y="520" text-anchor="end" fill="#5c636c" font-size="10" letter-spacing="1">SQL</text>
+<rect x="58" y="552" width="370" height="3" rx="1.5" fill="#2c3138"/>
+<rect x="58" y="552" height="3" rx="1.5" fill="#d5d8de">
+  <animate attributeName="width" values="0;370;370;0" keyTimes="0;0.42;0.78;1" dur="7.5s" begin="0.00s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="456" y="494" width="402" height="74" rx="8" fill="#161920" stroke="#3a4048"/>
+<rect x="456" y="494" width="402" height="74" rx="8" fill="#f4f5f7" opacity="0"><animate attributeName="opacity" values="0;0;0.10;0.10;0;0" keyTimes="0;0.1317;0.2017;0.2983;0.3683;1" dur="21s" repeatCount="indefinite"/></rect>
+<circle cx="472" cy="516" r="3" fill="#f4f5f7"><animate attributeName="opacity" values="1;0.25;1" dur="1.36s" repeatCount="indefinite"/></circle>
+<text x="484" y="520" fill="#f4f5f7" font-size="13">Nutrition_with_GenAI-AgenticAI</text>
+<text x="472" y="542" fill="#8e959e" font-size="11">Generative and agentic AI for nutrition science</text>
+<text x="844" y="520" text-anchor="end" fill="#5c636c" font-size="10" letter-spacing="1">GenAI</text>
+<rect x="472" y="552" width="370" height="3" rx="1.5" fill="#2c3138"/>
+<rect x="472" y="552" height="3" rx="1.5" fill="#d5d8de">
+  <animate attributeName="width" values="0;370;370;0" keyTimes="0;0.42;0.78;1" dur="7.5s" begin="0.35s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="42" y="580" width="402" height="74" rx="8" fill="#161920" stroke="#3a4048"/>
+<rect x="42" y="580" width="402" height="74" rx="8" fill="#f4f5f7" opacity="0"><animate attributeName="opacity" values="0;0;0.10;0.10;0;0" keyTimes="0;0.2983;0.3683;0.4650;0.5350;1" dur="21s" repeatCount="indefinite"/></rect>
+<circle cx="58" cy="602" r="3" fill="#f4f5f7"><animate attributeName="opacity" values="1;0.25;1" dur="1.52s" repeatCount="indefinite"/></circle>
+<text x="70" y="606" fill="#f4f5f7" font-size="13">Nutrition-AI-Business-Model</text>
+<text x="58" y="628" fill="#8e959e" font-size="11">AI, nutrition science, and business analytics</text>
+<text x="430" y="606" text-anchor="end" fill="#5c636c" font-size="10" letter-spacing="1">MODEL</text>
+<rect x="58" y="638" width="370" height="3" rx="1.5" fill="#2c3138"/>
+<rect x="58" y="638" height="3" rx="1.5" fill="#d5d8de">
+  <animate attributeName="width" values="0;370;370;0" keyTimes="0;0.42;0.78;1" dur="7.5s" begin="0.70s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="456" y="580" width="402" height="74" rx="8" fill="#161920" stroke="#3a4048"/>
+<rect x="456" y="580" width="402" height="74" rx="8" fill="#f4f5f7" opacity="0"><animate attributeName="opacity" values="0;0;0.10;0.10;0;0" keyTimes="0;0.4650;0.5350;0.6317;0.7017;1" dur="21s" repeatCount="indefinite"/></rect>
+<circle cx="472" cy="602" r="3" fill="#f4f5f7"><animate attributeName="opacity" values="1;0.25;1" dur="1.68s" repeatCount="indefinite"/></circle>
+<text x="484" y="606" fill="#f4f5f7" font-size="13">Sales-Analytics-System</text>
+<text x="472" y="628" fill="#8e959e" font-size="11">Python sales analytics</text>
+<text x="844" y="606" text-anchor="end" fill="#5c636c" font-size="10" letter-spacing="1">PYTHON</text>
+<rect x="472" y="638" width="370" height="3" rx="1.5" fill="#2c3138"/>
+<rect x="472" y="638" height="3" rx="1.5" fill="#d5d8de">
+  <animate attributeName="width" values="0;370;370;0" keyTimes="0;0.42;0.78;1" dur="7.5s" begin="1.05s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="42" y="666" width="402" height="74" rx="8" fill="#161920" stroke="#3a4048"/>
+<rect x="42" y="666" width="402" height="74" rx="8" fill="#f4f5f7" opacity="0"><animate attributeName="opacity" values="0;0;0.10;0.10;0;0" keyTimes="0;0.6317;0.7017;0.7983;0.8683;1" dur="21s" repeatCount="indefinite"/></rect>
+<circle cx="58" cy="688" r="3" fill="#f4f5f7"><animate attributeName="opacity" values="1;0.25;1" dur="1.84s" repeatCount="indefinite"/></circle>
+<text x="70" y="692" fill="#f4f5f7" font-size="13">Assessment-Model</text>
+<text x="58" y="714" fill="#8e959e" font-size="11">Worked examples for assessment</text>
+<text x="430" y="692" text-anchor="end" fill="#5c636c" font-size="10" letter-spacing="1">NOTES</text>
+<rect x="58" y="724" width="370" height="3" rx="1.5" fill="#2c3138"/>
+<rect x="58" y="724" height="3" rx="1.5" fill="#d5d8de">
+  <animate attributeName="width" values="0;370;370;0" keyTimes="0;0.42;0.78;1" dur="7.5s" begin="1.40s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="456" y="666" width="402" height="74" rx="8" fill="#161920" stroke="#3a4048"/>
+<rect x="456" y="666" width="402" height="74" rx="8" fill="#f4f5f7" opacity="0"><animate attributeName="opacity" values="0;0;0.10;0.10;0" keyTimes="0;0.7983;0.8683;0.9650;1" dur="21s" repeatCount="indefinite"/></rect>
+<circle cx="472" cy="688" r="3" fill="#f4f5f7"><animate attributeName="opacity" values="1;0.25;1" dur="2.00s" repeatCount="indefinite"/></circle>
+<text x="484" y="692" fill="#f4f5f7" font-size="13">Giridhari-Traders</text>
+<text x="472" y="714" fill="#8e959e" font-size="11">The trading venture</text>
+<text x="844" y="692" text-anchor="end" fill="#5c636c" font-size="10" letter-spacing="1">TRADE</text>
+<rect x="472" y="724" width="370" height="3" rx="1.5" fill="#2c3138"/>
+<rect x="472" y="724" height="3" rx="1.5" fill="#d5d8de">
+  <animate attributeName="width" values="0;370;370;0" keyTimes="0;0.42;0.78;1" dur="7.5s" begin="1.75s" repeatCount="indefinite"/>
+</rect>
+<rect x="26" y="424" width="848" height="334" rx="12" fill="none" stroke="#2c3138"/></svg>

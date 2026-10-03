@@ -16,16 +16,13 @@ The console above is the profile. It plays on its own: portrait scan, glitch, ra
 
 </div>
 
-### Selected work
+<div align="center">
 
-| Project | What it is |
-| --- | --- |
-| [Nutrition_AI](https://github.com/surajkumardas20/Nutrition_AI) | Patients, BMI, and SQL-powered health intelligence |
-| [Nutrition_with_GenAI-AgenticAI](https://github.com/surajkumardas20/Nutrition_with_GenAI-AgenticAI) | Generative and agentic AI for nutrition science |
-| [Nutrition-AI-Business-Model](https://github.com/surajkumardas20/Nutrition-AI-Business-Model) | AI, nutrition science, and business analytics |
-| [Sales-Analytics-System](https://github.com/surajkumardas20/Sales-Analytics-System) | Python sales analytics |
-| [Assessment-Model](https://github.com/surajkumardas20/Assessment-Model) | Worked examples for assessment |
-| [Giridhari-Traders](https://github.com/surajkumardas20/Giridhari-Traders) | The trading venture |
+<img src="work-console.svg" alt="Selected work and popular repositories, animated in the same console as the profile." width="100%"/>
+
+[Nutrition_AI](https://github.com/surajkumardas20/Nutrition_AI) · [Nutrition_with_GenAI-AgenticAI](https://github.com/surajkumardas20/Nutrition_with_GenAI-AgenticAI) · [Nutrition-AI-Business-Model](https://github.com/surajkumardas20/Nutrition-AI-Business-Model) · [Sales-Analytics-System](https://github.com/surajkumardas20/Sales-Analytics-System) · [Assessment-Model](https://github.com/surajkumardas20/Assessment-Model) · [Giridhari-Traders](https://github.com/surajkumardas20/Giridhari-Traders)
+
+</div>
 
 <div align="center">
 
